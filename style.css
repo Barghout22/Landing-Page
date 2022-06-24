@@ -7,14 +7,6 @@ h1{font-size: 48px;
     font-weight:extra-bold;
     color: #F9FAF8;}
 
-    button
-    {background-color: #3882F6;
-    color: white;
-    border-radius: 6px;
-    padding: 8px 24px;
-    border: 5px;
-    border-color: white;
-    }
 h2
 {
 font-size: 36px;
@@ -36,6 +28,8 @@ justify-content: space-around;
     height: 400px;
   background-color: #1F2937;  
   padding: 8px 24px;
+  display: flex;
+  flex-flow: column wrap;
 
 
 }
@@ -79,8 +73,17 @@ gap: 52px;
 {
 background-color: #3882F6;
 color: #E5E7EB;
+margin: 50px 50px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 140px;
+border-radius: 5px;
 }
-
+.text-fourth
+{
+    align-items: flex-start;
+}
 .Footer{
     padding: 24px;
     height: 40px;
@@ -109,7 +112,14 @@ ul
     display: flex;
     gap: 40px;
 }
-
+button
+{background-color: #3882F6;
+color: white;
+border-radius: 6px;
+border-color: white;
+padding: 8px 24px;
+border-width: thin;
+}
 
 
 
